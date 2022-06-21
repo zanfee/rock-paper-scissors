@@ -78,4 +78,5 @@ main {
 .choices button img {
   width: 96px;
   height: 96px;
+  user-select: none;
 }
