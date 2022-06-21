@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
+  <main>
+    <div id="score">0:0</div>
+    <p class="pick">Choose your weapon.</p>
+    <div class="choices">
+      <button onclick="pick('rock')" title="Rock"><img src="img/rock.svg" alt="Rock"></button>
+      <button onclick="pick('paper')" title="Paper"><img src="img/paper.svg" alt="Paper"></button>
+      <button onclick="pick('scissors')" title="Scissors"><img src="img/scissors.svg" alt="Scissors"></button>
+    </div>
+    <p id="result"></p>
+  </main>
+</body>
+</html>
