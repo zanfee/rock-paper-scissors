@@ -1,3 +1,4 @@
+// Get elements from DOM
 const score = document.getElementById('score')
 const result = document.getElementById('result')
 
@@ -16,6 +17,7 @@ const choices = {
   }
 }
 
+// Keep track of scores
 let userScore = 0
 let computerScore = 0
 
@@ -25,6 +27,8 @@ function pick(userPick) {
   const randomChoice = Math.floor(Math.random() * choicesArray.length)
   const computerPick = choicesArray[randomChoice]
 
+
+  // Check who won and update the DOM
   const computer = choices[computerPick]
   if (computer.wins.includes(userPick)) {
     computerScore++
