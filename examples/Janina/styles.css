@@ -1,0 +1,26 @@
+h1 {
+    font-family: 'Times new roman';
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(208, 179, 135);
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+#score {
+    font-size: 50pt;
+}
+
+#result {
+    font-size: 20pt;
+}
