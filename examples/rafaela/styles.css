@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: hsl(249, 57%, 24%);
+  color: rgb(54, 47, 121);
+}
+
+
+
+div {
+  padding: 10px;
+  background: rgb(130, 206, 241);
+}
+
+h1{
+  text-align: center;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  background-color:darksalmon;
+}
+
+/* #rock {
+  float: left;
+}
+
+#papier{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#schere{
+  float: right;
+} */
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+#score {
+
+}
