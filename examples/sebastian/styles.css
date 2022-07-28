@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: color yellow
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 70px;
+}
+
+#bilder {
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+}
+
+div {
+  padding: 10px;
+  background: fixed rebeccapurple;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.button1 {background-color: #4CAF50;}
+.button2 {background-color: #008CBA;} /* Blue */
+
+p {
+  text-align: center;
+}
